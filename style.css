@@ -27,11 +27,15 @@ body {
 }
 .main {
   background-color: white;
-  margin-right: 300px;
-  margin-left: 300px;
+  width: 960px;
+  margin: 0 auto;
   padding-top: 20px;
   padding-left: 40px;
   padding-right: 40px;
+
+  /*
+  margin-right: 300px;
+  margin-left: 300px;
   /*text-align: center;*/
 }
 .kontejner1 {
@@ -40,12 +44,70 @@ body {
 }
 
 .kontejner1 img {
-  width: 200px;
+  width: 240px;
   padding: 10px;
 }
+
 .kontejner2 {
-  /*padding: 50px;
-  margin: 20px;*/
+  text-align: left;
   display: flex;
-  width: calc (100% / 3);
+  padding: 80px;
+}
+
+.levy-sloupec-popis {
+  padding-right: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.pravy-sloupec-popis {
+  padding-left: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+.menu img {
+  width: 323px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.losos,
+.dezert {
+  display: flex;
+}
+
+.losos-text {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  /*flex-basis: 50%;
+  /*justify-content: flex-end;*/
+}
+
+.tagliatelle {
+  display: flex;
+}
+.tagliatelle-text {
+  width: 350px;
+  flex-direction: column;
+  order: 1;
+}
+.tagliatelle img {
+  order: 2;
+}
+
+.dezert-text {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.paticka {
+  padding: 50px 360px 50px 360px;
+  text-align: center;
 }
